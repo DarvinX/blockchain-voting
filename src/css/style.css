@@ -1,6 +1,8 @@
 .candidate{
     margin-top: 18px;
-    justify-content: center;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+     
 }
 .cimage{
     position: relative;
