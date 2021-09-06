@@ -53,7 +53,7 @@
   "sourceMap": "101:352:1:-;;;148:10;125:33;;;;;;;;;;;;;;;;;;;;101:352;8:9:-1;5:2;;;30:1;27;20:12;5:2;101:352:1;;;;;;;",
   "deployedSourceMap": "101:352:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;101:352:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;162:36;;;:::i;:::-;;;;;;;;;;;;;;;;;;;125:33;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;348:103;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;348:103:1;;;;;;;;;;;;;;;;;:::i;:::-;;162:36;;;;:::o;125:33::-;;;;;;;;;;;;;:::o;348:103::-;260:5;;;;;;;;;;;246:19;;:10;:19;;;231:101;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;437:9;410:24;:36;;;;348:103;:::o",
   "source": "// SPDX-License-Identifier: MIT\n//pragma solidity >=0.4.22 <0.8.0;\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Migrations {\n  address public owner = msg.sender;\n  uint public last_completed_migration;\n\n  modifier restricted() {\n    require(\n      msg.sender == owner,\n      \"This function is restricted to the contract's owner\"\n    );\n    _;\n  }\n\n  function setCompleted(uint completed) public restricted {\n    last_completed_migration = completed;\n  }\n}\n",
-  "sourcePath": "C:\\Users\\Tathagata\\Desktop\\blockchain-voting\\contracts\\Migrations.sol",
+  "sourcePath": "/home/t_hansda/Desktop/workplace/blockchain-voting/contracts/Migrations.sol",
   "ast": {
     "absolutePath": "project:/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -915,12 +915,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x8328E10d812B77aF2D4890769d60d4EA878B0241",
-      "transactionHash": "0xe05334f6cec80d4360e8b3c840df6097558ec0ebf37b3f1ca153e8e00b8b0f42"
+      "address": "0x0a5D33f904F94C0285A339eBFf4E49487e5D165a",
+      "transactionHash": "0x624cf2e98321de2507dc1c0e96ffc0d0bbabc16dfd87fb173a392b87d70b2e36"
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-09-01T10:22:47.418Z",
+  "updatedAt": "2021-09-05T14:22:59.624Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
